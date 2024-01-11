@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E109E17251988DE001FA58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E16251988DE001FA58B /* AppDelegate.m */; };
+		7E109E1D251988DE001FA58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E1C251988DE001FA58B /* ViewController.m */; };
+		7E109E20251988DE001FA58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E109E1E251988DE001FA58B /* Main.storyboard */; };
+		7E109E22251988E0001FA58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E109E21251988E0001FA58B /* Assets.xcassets */; };
+		7E109E25251988E0001FA58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E109E23251988E0001FA58B /* LaunchScreen.storyboard */; };
+		7E109E28251988E0001FA58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E27251988E0001FA58B /* main.m */; };
+		7E109E3925198C78001FA58B /* MZouTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E3725198C78001FA58B /* MZouTagsView.m */; };
+		7E109E3C25198CCA001FA58B /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E3B25198CC9001FA58B /* UICollectionViewLeftAlignedLayout.m */; };
+		7E109E4225198D01001FA58B /* MZouTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E4125198D01001FA58B /* MZouTagsModel.m */; };
+		7E109E4525198E1F001FA58B /* MZouTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E109E4425198E1F001FA58B /* MZouTagsCell.m */; };
+		AE620969AFCCDC609D700BA1 /* Pods_MZouTagDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37C9E83EE74CABA0B3E6322 /* Pods_MZouTagDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE4CD5E03E9CBA271411E5F /* Pods-MZouTagDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZouTagDemo.debug.xcconfig"; path = "Target Support Files/Pods-MZouTagDemo/Pods-MZouTagDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E109E12251988DE001FA58B /* MZouTagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZouTagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E109E15251988DE001FA58B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E109E16251988DE001FA58B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E109E1B251988DE001FA58B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E109E1C251988DE001FA58B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E109E1F251988DE001FA58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E109E21251988E0001FA58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E109E24251988E0001FA58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E109E26251988E0001FA58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E109E27251988E0001FA58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E109E3225198B6C001FA58B /* MZouTagDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZouTagDemo.pch; sourceTree = "<group>"; };
+		7E109E3725198C78001FA58B /* MZouTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZouTagsView.m; sourceTree = "<group>"; };
+		7E109E3825198C78001FA58B /* MZouTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZouTagsView.h; sourceTree = "<group>"; };
+		7E109E3A25198CC9001FA58B /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		7E109E3B25198CC9001FA58B /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		7E109E4025198D01001FA58B /* MZouTagsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZouTagsModel.h; sourceTree = "<group>"; };
+		7E109E4125198D01001FA58B /* MZouTagsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZouTagsModel.m; sourceTree = "<group>"; };
+		7E109E4325198E1F001FA58B /* MZouTagsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZouTagsCell.h; sourceTree = "<group>"; };
+		7E109E4425198E1F001FA58B /* MZouTagsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZouTagsCell.m; sourceTree = "<group>"; };
+		8257108952D706DB4D9BC9DF /* Pods-MZouTagDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZouTagDemo.release.xcconfig"; path = "Target Support Files/Pods-MZouTagDemo/Pods-MZouTagDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C37C9E83EE74CABA0B3E6322 /* Pods_MZouTagDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZouTagDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E109E0F251988DE001FA58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE620969AFCCDC609D700BA1 /* Pods_MZouTagDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74339EAF2C2C9B4B71AA43A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37C9E83EE74CABA0B3E6322 /* Pods_MZouTagDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E109E09251988DE001FA58B = {
+			isa = PBXGroup;
+			children = (
+				7E109E14251988DE001FA58B /* MZouTagDemo */,
+				7E109E13251988DE001FA58B /* Products */,
+				AF6DBE43CCCC62F572172B20 /* Pods */,
+				74339EAF2C2C9B4B71AA43A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E109E13251988DE001FA58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E12251988DE001FA58B /* MZouTagDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E109E14251988DE001FA58B /* MZouTagDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E3325198C78001FA58B /* MZouTags */,
+				7E109E15251988DE001FA58B /* AppDelegate.h */,
+				7E109E16251988DE001FA58B /* AppDelegate.m */,
+				7E109E1B251988DE001FA58B /* ViewController.h */,
+				7E109E1C251988DE001FA58B /* ViewController.m */,
+				7E109E3225198B6C001FA58B /* MZouTagDemo.pch */,
+				7E109E1E251988DE001FA58B /* Main.storyboard */,
+				7E109E21251988E0001FA58B /* Assets.xcassets */,
+				7E109E23251988E0001FA58B /* LaunchScreen.storyboard */,
+				7E109E26251988E0001FA58B /* Info.plist */,
+				7E109E27251988E0001FA58B /* main.m */,
+			);
+			path = MZouTagDemo;
+			sourceTree = "<group>";
+		};
+		7E109E3325198C78001FA58B /* MZouTags */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E3625198C78001FA58B /* Views */,
+				7E109E3425198C78001FA58B /* Other */,
+				7E109E3525198C78001FA58B /* Model */,
+			);
+			path = MZouTags;
+			sourceTree = "<group>";
+		};
+		7E109E3425198C78001FA58B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E3A25198CC9001FA58B /* UICollectionViewLeftAlignedLayout.h */,
+				7E109E3B25198CC9001FA58B /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7E109E3525198C78001FA58B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E4025198D01001FA58B /* MZouTagsModel.h */,
+				7E109E4125198D01001FA58B /* MZouTagsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E109E3625198C78001FA58B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E109E3825198C78001FA58B /* MZouTagsView.h */,
+				7E109E3725198C78001FA58B /* MZouTagsView.m */,
+				7E109E4325198E1F001FA58B /* MZouTagsCell.h */,
+				7E109E4425198E1F001FA58B /* MZouTagsCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF6DBE43CCCC62F572172B20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4CD5E03E9CBA271411E5F /* Pods-MZouTagDemo.debug.xcconfig */,
+				8257108952D706DB4D9BC9DF /* Pods-MZouTagDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E109E11251988DE001FA58B /* MZouTagDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E109E2B251988E0001FA58B /* Build configuration list for PBXNativeTarget "MZouTagDemo" */;
+			buildPhases = (
+				06CDD8B6551ABF433AC3A7A6 /* [CP] Check Pods Manifest.lock */,
+				7E109E0E251988DE001FA58B /* Sources */,
+				7E109E0F251988DE001FA58B /* Frameworks */,
+				7E109E10251988DE001FA58B /* Resources */,
+				3AF239F206CDD60254137FB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZouTagDemo;
+			productName = MZouTagDemo;
+			productReference = 7E109E12251988DE001FA58B /* MZouTagDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E109E0A251988DE001FA58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = MZou;
+				TargetAttributes = {
+					7E109E11251988DE001FA58B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 7E109E0D251988DE001FA58B /* Build configuration list for PBXProject "MZouTagDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E109E09251988DE001FA58B;
+			productRefGroup = 7E109E13251988DE001FA58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E109E11251988DE001FA58B /* MZouTagDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E109E10251988DE001FA58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E109E25251988E0001FA58B /* LaunchScreen.storyboard in Resources */,
+				7E109E22251988E0001FA58B /* Assets.xcassets in Resources */,
+				7E109E20251988DE001FA58B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06CDD8B6551ABF433AC3A7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZouTagDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF239F206CDD60254137FB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MZouTagDemo/Pods-MZouTagDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MZouTagDemo/Pods-MZouTagDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MZouTagDemo/Pods-MZouTagDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E109E0E251988DE001FA58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E109E1D251988DE001FA58B /* ViewController.m in Sources */,
+				7E109E4525198E1F001FA58B /* MZouTagsCell.m in Sources */,
+				7E109E17251988DE001FA58B /* AppDelegate.m in Sources */,
+				7E109E3925198C78001FA58B /* MZouTagsView.m in Sources */,
+				7E109E28251988E0001FA58B /* main.m in Sources */,
+				7E109E4225198D01001FA58B /* MZouTagsModel.m in Sources */,
+				7E109E3C25198CCA001FA58B /* UICollectionViewLeftAlignedLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E109E1E251988DE001FA58B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E109E1F251988DE001FA58B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E109E23251988E0001FA58B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E109E24251988E0001FA58B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E109E29251988E0001FA58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E109E2A251988E0001FA58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E109E2C251988E0001FA58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE4CD5E03E9CBA271411E5F /* Pods-MZouTagDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3773FW7YC6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MZouTagDemo/MZouTagDemo.pch";
+				INFOPLIST_FILE = MZouTagDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.MZouTagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E109E2D251988E0001FA58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8257108952D706DB4D9BC9DF /* Pods-MZouTagDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3773FW7YC6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MZouTagDemo/MZouTagDemo.pch";
+				INFOPLIST_FILE = MZouTagDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.MZouTagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E109E0D251988DE001FA58B /* Build configuration list for PBXProject "MZouTagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E109E29251988E0001FA58B /* Debug */,
+				7E109E2A251988E0001FA58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E109E2B251988E0001FA58B /* Build configuration list for PBXNativeTarget "MZouTagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E109E2C251988E0001FA58B /* Debug */,
+				7E109E2D251988E0001FA58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E109E0A251988DE001FA58B /* Project object */;
+}
